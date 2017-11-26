@@ -29,16 +29,17 @@ function addTime(oldTime, milliseconds) {
 }
 
 /**
- * 
+ *
  * @param {any} time
  */
 function showTime(time) {
+   // Declaration and Initialization
     var hour = time.getHours();
     var minute = time.getMinutes();
     var hourDisplay = (hour > 12) ? hour - 12 : hour;
     var minuteDisplay = (minute < 10) ? "0" + minute : "" + minute;
     var timeDisplay = hourDisplay + ":" + minuteDisplay;
-
+    // Processing
     timeDisplay += (hour >= 12) ? " PM" : " AM";
 
     return timeDisplay;
