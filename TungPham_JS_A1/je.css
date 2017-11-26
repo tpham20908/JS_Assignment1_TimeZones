@@ -1,0 +1,54 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*
+   JavaScript & AJAX Assignment 01
+   Developed By: Thanh-Tung Pham
+   Developed Date: Nov 25, 2017
+   Filename: je.css
+   This file contains styles used in the worldTime.html file.
+*/
+body {
+    width: 657px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+tr th, tr td {
+    border: 1px solid black;
+}
+
+#timemap input {
+    width: 102px;
+    text-align: center;
+}
+
+table tr th {
+    width: 103px;
+}
+
+#place1, #name1 {
+    background: #b1bcbe;
+}
+
+#place2, #name2 {
+    background: #f1f2e2;
+}
+
+#place3, #name3 {
+    background: #ead590;
+}
+
+#place4, #name4 {
+    background: #8bebee;
+}
+
+#place5, #name5 {
+    background: #f5a9a9;
+}
+
+#place6, #name6 {
+    background: #a8b459;
+}
